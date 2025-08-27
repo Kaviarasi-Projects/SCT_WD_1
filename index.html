@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookVerse - Discover Your Next Read</title>
+    <link rel="stylesheet" href="land.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+   
+    <div class="background" id="background-div"></div>
+    <div class="background-overlay"></div>
+    <header>
+        <nav class="navbar">
+            <img src="logo.jpg" alt="Logo" class="logo" />
+
+          
+            <h1 class="site-title">BOOK VERSE</h1>
+
+            <div class="center_nav">
+                <a href="#">Home</a>
+                <a href="#">Books</a>
+                <a href="#">Genres</a>
+                <a href="#">About</a>
+            </div>
+            <div class="social">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#"><i class="fa-solid fa-user"></i></a>
+            </div>
+        </nav>
+    </header>
+
+   
+    <main class="hero-container">
+      
+        <div class="hero-content">
+            <h1 id="book-title">Select a Book</h1>
+            <div class="meta">
+                <span id="book-year"></span>
+                <span id="book-rating"></span>
+                <span id="book-genre"></span>
+            </div>
+            <p id="book-description">Click on a book cover to see details here.</p>
+            <div class="buttons">
+                <a href="#" class="btn btn-primary"><i class="fa-solid fa-play"></i> Read Now</a>
+                <a href="#" class="btn btn-secondary">+ My List</a>
+            </div>
+        </div>
+
+        <div class="carousel-container">
+            <div class="carousel">
+                
+                <div class="carousel-item"
+                     data-bg="images/you can win.jpg"
+                     data-title="You Can Win"
+                     data-year="2021"
+                     data-genre="Self-Help"
+                     data-description="An easy-to-read, practical, common-sense approach that will take you from ancient wisdom to modern-day thinking, helping you establish new goals and develop a new sense of purpose.">
+                    <a href="https://vidyaprabodhinicollege.edu.in/VPCCECM/ebooks/Exhibition/You%20Can%20Win.pdf"><img src="you can win.jpg" alt="You Can Win"></a>
+                </div>
+
+                <div class="carousel-item"
+                     data-bg="images/ power of now.jpg"
+                     data-title="The Power of Now"
+                     data-year="1997"
+                     data-genre="Spirituality"
+                     data-description="A guide to spiritual enlightenment, Eckhart Tolle's book encourages readers to live in the present moment to discover a life of peace and fulfillment.">
+                    <a href="https://www.google.co.in/books/edition/The_Power_of_Now/sQYqRCIhFAMC?hl=en&gbpv=1&printsec=frontcover"><img src="the power of now.jpg" alt="The Power of Now" /></a>
+                </div>
+
+                <div class="carousel-item"
+                     data-bg="images/ alchemist.jpg"
+                     data-title="The Alchemist"
+                     data-year="1988"
+                     data-genre="Adventure"
+                     data-description="A shepherd boy named Santiago embarks on a journey to Egypt in search of treasure, learning about life, love, and his destiny along the way.">
+                    <a href="https://fliphtml5.com/elczj/pwhz/The_Alchemist/59/"><img src="the alchemist.jpg" alt="The Alchemist" /></a>
+                </div>
+
+                <div class="carousel-item"
+                     data-bg="images/ of fire.jpg"
+                     data-title="Wings of Fire"
+                     data-year="1999"
+                     data-genre="Autobiography"
+                     data-description="The autobiography of APJ Abdul Kalam, a journey from humble beginnings to becoming a renowned scientist and President of India.">
+                    <a href="https://fliphtml5.com/tpqho/qesm/wings-of-fire-by-abdul-kalam/"><img src="wings of fire.jpg" alt="Wings of Fire" /></a>
+                </div>
+
+                <div class="carousel-item"
+                     data-bg="images/pride.webp"
+                     data-title="Pride and Prejudice"
+                     data-year="1813"
+                     data-genre="Classic Romance"
+                     data-description="Jane Austen’s timeless novel about Elizabeth Bennet navigating manners, morality, and romance.">
+                    <a href="https://giove.isti.cnr.it/demo/eread/Libri/joy/Pride.pdf"><img src="pride.webp" alt="Pride and Prejudice" /></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
